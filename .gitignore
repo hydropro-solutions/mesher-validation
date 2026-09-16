@@ -1,0 +1,14 @@
+# HydroPro proprietary mesher inputs
+**/configs/
+**/*.cfg
+
+# Internal meshing-stage/debug artifacts
+**/meshing-stages/
+**/constant/triSurface/pointCloud/
+**/*projection_point_cloud*
+
+# Local execution logs may contain workstation paths
+**/run.log
+
+# OpenFOAM transient parallel artifacts
+**/processor*/

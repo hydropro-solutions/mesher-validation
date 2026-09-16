@@ -1,8 +1,6 @@
-# Optional generated local files
 .DS_Store
 Thumbs.db
-
-# Python environments
 .venv/
 .venv-win/
 __pycache__/
+_site/

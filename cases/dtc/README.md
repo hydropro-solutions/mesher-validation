@@ -66,6 +66,8 @@ For visualization, create/open a `.foam` marker file and inspect the mesh and so
 
 The underlying DTC CFD setup is based on the DTC case distributed with the OpenFOAM tutorials. Users who want a clean initial field set or the original tutorial workflow can obtain it directly from the corresponding OpenFOAM tutorial installation.
 
+**[⬇ Download complete DTC OpenFOAM validation case](https://drive.google.com/file/d/1Cgaiaj46WVoRbSKlV5YIN5G0zRu3pDMk/view?usp=sharing)**
+
 This public HydroPro package focuses on the **generated mesh and the resulting CFD validation**.
 
 ## Reproducibility scope

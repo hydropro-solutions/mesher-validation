@@ -29,6 +29,8 @@ https://github.com/nathanrooy/ahmed-bluff-body-cfd/tree/master/openfoam_rans
 
 The HydroPro result uses a mesh generated independently by HydroPro's proprietary meshing technology; the mesher configuration is not distributed.
 
+**[⬇ Download complete Ahmed Body OpenFOAM validation case](https://drive.google.com/file/d/1D6JRIJXeYbrt8wvAJRpOY3rBzG_ywE7a/view?usp=sharing)**
+
 ## CFD result
 
 At iteration 500:

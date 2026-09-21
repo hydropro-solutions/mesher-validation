@@ -8,7 +8,7 @@ description: Geometry-only OpenFOAM mesh cases for KCS, sphere, and propeller.
 
 # Geometry-only mesh inspection
 
-<div class="download-box"><strong>Download the exact geometry-only mesh bundle:</strong> <a class="button button-primary" href="{{ '/downloads/geometry-meshes.zip' | relative_url }}">Download KCS + sphere + propeller</a><div class="small-note">24 MB ZIP · no CFD solution fields or solver results · SHA-256 <code>521c39869a0d36c436d2a6724c49568e238174ad20c9aeb14826246c1c891242</code></div></div>
+<div class="download-box"><strong>Download the exact geometry-only mesh bundle:</strong> <a class="button button-primary" href="{{ '/downloads/geometry-meshes.zip' | relative_url }}">Download KCS + sphere + propeller</a><div class="small-note"></code></div></div>
 
 | Case | Cells | Faces | Boundary faces | Object patch | Object faces |
 |---|---:|---:|---:|---|---:|

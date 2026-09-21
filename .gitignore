@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.venv/
+.venv-win/
+__pycache__/
+_site/

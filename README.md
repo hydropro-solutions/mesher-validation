@@ -1,13 +1,20 @@
 # HydroPro Mesher Validation
 
-Public GitHub Pages site for geometry-first inspection of meshes generated with HydroPro's automated 3D meshing technology.
+GitHub Pages repository for HydroPro mesher validation.
 
-**Site:** https://hydropro-solutions.github.io/mesher-validation/
+## Geometry-only mesh cases
 
-The KCS, sphere, and propeller pages are geometry/mesh-only. No CFD solver-result claims are made from these cases.
+- KCS hull
+- Sphere
+- Propeller
 
-The repository also contains `downloads/geometry-meshes.zip`, a geometry-only OpenFOAM mesh bundle for the three showcased cases.
+These pages report mesh/geometry inspection only and do not present CFD runs. The downloadable geometry bundle is in `downloads/geometry-meshes.zip`.
 
-## GitHub Pages
+## CFD validation cases
 
-In **Settings → Pages**, publish from the `main` branch and repository root (`/`).
+- Duisburg Test Case (DTC)
+- Ahmed Body, 25° slant
+
+The DTC and Ahmed pages retain the CFD validation content and external case-download links from the original repository.
+
+Published site: https://hydropro-solutions.github.io/mesher-validation/

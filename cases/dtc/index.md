@@ -72,10 +72,6 @@ The experimental total-resistance value used for comparison is **15.915 N for th
   <div class="figure-caption">Near-wall cells around the midship region, colored by cell-center-to-hull distance to show the wall-normal spacing distribution.</div>
 </div>
 
-<div class="figure-block">
-  <img src="{{ '/cases/dtc/images/dtc_nearwall_distance.png' | relative_url }}" alt="DTC near-wall layer cells">
-  <div class="figure-caption">Close view of the near-wall cell band around the hull.</div>
-</div>
 
 ## CFD setup source
 

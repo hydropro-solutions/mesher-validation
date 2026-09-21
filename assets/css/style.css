@@ -217,3 +217,70 @@ pre {
   .site-nav a { margin-left: 0; margin-right: 1rem; }
   .hero h1 { font-size: 1.85rem; }
 }
+
+/* Geometry-analysis additions */
+.scope-pill,
+.scope-line,
+.scope-banner {
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+.scope-pill {
+  font-size: 0.76rem;
+  color: #0f6aa5;
+  background: #e8f3fb;
+  border: 1px solid #c9e1f2;
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+  margin-bottom: 0.85rem;
+}
+.scope-line {
+  font-size: 0.73rem;
+  color: #397098;
+  margin-bottom: 0.35rem;
+}
+.warning-line { color: #9a5910; }
+.scope-banner {
+  display: block;
+  background: #e8f3fb;
+  color: #124f78;
+  border: 1px solid #c6dfef;
+  border-left: 5px solid #1f7db9;
+  border-radius: 10px;
+  padding: 0.75rem 0.95rem;
+  margin: 1rem 0 1.35rem;
+  font-size: 0.8rem;
+}
+.figure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.2rem;
+  align-items: start;
+}
+.figure-grid .figure-block { margin-top: 0.5rem; }
+.notice {
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin: 1.25rem 0 1.5rem;
+}
+.notice-info {
+  background: #eef6fc;
+  border: 1px solid #cfe3f2;
+  border-left: 5px solid #1f7db9;
+}
+.notice-warning {
+  background: #fff7e8;
+  border: 1px solid #f0d6a6;
+  border-left: 5px solid #d48719;
+}
+.compact-cards .case-card-body { min-height: 190px; }
+.download-box .small-note { margin-top: 0.8rem; word-break: break-word; }
+.download-box .button { margin: 0.25rem 0.25rem 0.25rem 0; }
+table code { white-space: nowrap; }
+@media (max-width: 700px) {
+  .figure-grid { grid-template-columns: 1fr; }
+  .site-nav { display: flex; flex-wrap: wrap; gap: 0.4rem 0.8rem; }
+  .site-nav a { margin: 0; }
+}

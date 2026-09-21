@@ -1,5 +1,5 @@
 title: HydroPro Mesher Validation
-description: CFD validation cases generated using HydroPro's automated 3D meshing technology.
+description: Geometry-first validation and inspection of meshes generated with HydroPro's automated 3D meshing technology.
 baseurl: /mesher-validation
 url: https://hydropro-solutions.github.io
 markdown: kramdown

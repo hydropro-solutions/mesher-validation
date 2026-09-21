@@ -1,22 +1,11 @@
 # HydroPro Mesher Validation
 
-Public CFD validation repository for HydroPro's automated 3D meshing technology.
+Public GitHub Pages site for geometry-first inspection of meshes generated with HydroPro's automated 3D meshing technology.
 
-The rendered website presents the DTC and Ahmed 25° validation cases, including technical results, figures, and links to the corresponding downloadable OpenFOAM cases.
+**Site:** https://hydropro-solutions.github.io/mesher-validation/
 
-## Site structure
+The KCS, sphere, and supplied `propeller` pages are geometry/mesh-only; they do not contain CFD solver-result claims. The original DTC and Ahmed pages are retained as separate legacy CFD-validation pages.
 
-```text
-mesher-validation/
-├── _config.yml
-├── _layouts/
-├── assets/
-│   └── css/
-├── cases/
-│   ├── dtc/
-│   │   ├── index.md
-│   │   └── images/
-│   └── ahmed25/
-│       ├── index.md
-│       └── images/
-```
+## GitHub Pages
+
+In **Settings → Pages**, publish from the `main` branch and repository root (`/`). GitHub will build the Markdown pages with Jekyll using `_config.yml`, `_layouts/default.html`, and `assets/css/style.css`.

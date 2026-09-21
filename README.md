@@ -4,8 +4,10 @@ Public GitHub Pages site for geometry-first inspection of meshes generated with 
 
 **Site:** https://hydropro-solutions.github.io/mesher-validation/
 
-The KCS, sphere, and supplied `propeller` pages are geometry/mesh-only; they do not contain CFD solver-result claims. The original DTC and Ahmed pages are retained as separate legacy CFD-validation pages.
+The KCS, sphere, and propeller pages are geometry/mesh-only. No CFD solver-result claims are made from these cases.
+
+The repository also contains `downloads/geometry-meshes.zip`, a geometry-only OpenFOAM mesh bundle for the three showcased cases.
 
 ## GitHub Pages
 
-In **Settings → Pages**, publish from the `main` branch and repository root (`/`). GitHub will build the Markdown pages with Jekyll using `_config.yml`, `_layouts/default.html`, and `assets/css/style.css`.
+In **Settings → Pages**, publish from the `main` branch and repository root (`/`).

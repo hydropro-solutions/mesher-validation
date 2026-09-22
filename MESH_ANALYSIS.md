@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mesh Analysis Methodology
-description: Geometry-only OpenFOAM mesh inspection methodology and visualization notes.
+description: Geometry-only OpenFOAM mesh inspection methodology and visualization notes. 
 ---
 
 # Geometry-only mesh analysis methodology

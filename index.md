@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Home 
 description: HydroPro mesher validation covering geometry-only mesh inspection and CFD validation cases.
 ---
 
